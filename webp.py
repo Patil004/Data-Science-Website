@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-from PIL import Image
-import os
-
-def convert_to_webp(input_image_path, output_image_path):
-    try:
-        # Open the input image file
-        img = Image.open(input_image_path)
-
-        # Convert and save the image in WebP format
-        img.save(output_image_path, format="webp")
-        print(f"Conversion successful: {output_image_path}")
-
-    except Exception as e:
-        print(f"Error during conversion: {e}")
-
-if __name__ == "__main__":
-    # Keep the space in the folder name if that's the actual folder name
-    input_image = "C:\\Users\\Admin\\Desktop\\ds departme nt\\rachelmaam.jpg"
-    
-    # Path to save the WebP image
-    output_image = "C:\\Users\\Admin\\Desktop\\ds departme nt\\rachelmaam.webp"
-
-    # Convert the image
-    convert_to_webp(input_image, output_image)
-=======
 from PIL import Image
 import os
 
@@ -48,4 +22,3 @@ if __name__ == "__main__":
 
     # Convert the image
     convert_to_webp(input_image, output_image)
->>>>>>> b08a53694cb6aebc94f050dbbf662861cca3a131
