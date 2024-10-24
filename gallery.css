@@ -175,3 +175,23 @@ body {
     background-image: url(background.webp);
 }
 
+.developername1 {
+    color: white;
+    text-decoration: none;
+  }
+  
+.developername2 {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should take up all available space */
+.content {
+    flex: 1;
+}
