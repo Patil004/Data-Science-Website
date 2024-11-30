@@ -44,5 +44,15 @@
 
     <script src="script.js"></script>
 
+    <script>
+        // Mobile Menu Toggle Functionality
+        const menuIcon = document.getElementById('menu-icon');
+        const navLinks = document.getElementById('nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
 </body>
 </html>
