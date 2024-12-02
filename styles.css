@@ -1,6 +1,7 @@
 /* Smooth Scrolling */
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* Resetting default margin and padding */
